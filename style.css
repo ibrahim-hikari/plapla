@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(0, 134, 83);
+}
+h1{
+    color: rgb(238, 255, 0);
+    text-align: center;
+    background-color: blueviolet;
+}
+h2.formHeader{
+    background-color: chocolate;
+    text-align: center;
+    color: rgb(44, 2, 141);;
+}
+
+h2.KittenInfo {
+    background-color: deeppink;
+    color: rgb(56, 0, 109);
+    text-align: center;
+}
+
+.submitt{
+    text-align: center;
+}

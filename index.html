@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>
-        test
-    </title>
+    <title>Adopt a Kitten</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        Test
+        <h1>
+            Adopt a Kitten
+        </h1>
     </header>
+
     <main>
-        <section>
-            <p>
-                This site is for testing the HTML files
-            </p>
-        </section>
-        <section>
-            <img src="https://i.ytimg.com/vi/Gr3sp4AO8to/maxresdefault.jpg" alt="">
-        </section>
+        <h2 class="formHeader">
+            Add a Kitten
+        </h2>
+        <form id="addKittenForm">
+            <fieldset>
+                <legend>Basic informatio</legend>
+                <label for="KittenName">Name:</label>
+                <input type="text" name="name">
+                <label for="KittenBreed">Breed:</label>
+                <input type="text" name="breed">
+                <label for="KittenColor">Coat Color</label>
+                <input type="text" name="coatcolor">
+                <label for="KittenInterests">Interests</label>
+                <input type="text" name="interests">
+                <span>List interests seperated by commas</span>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Placement informatio
+                </legend>
+                <p>Can be placed with ..</p>
+                <label>
+                    <input type="checkbox" name="isGoodWithKids">
+                    Kids
+                </label>
+                <label>
+                    <input type="checkbox" name="isGoodWithDogs">
+                    Dogs
+                </label>
+                <label>
+                    <input type="checkbox" name="isGoodWithOtherKittens">
+                    Other Kittens
+                </label>
+
+            </fieldset>
+            <button class="Submitt" type="submit">
+                Submitt
+            </button>
+        </form>
+        <h2 class="KittenInfo">
+            Kittens For Aoption
+        </h2>
     </main>
 
+    <footer></footer>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
